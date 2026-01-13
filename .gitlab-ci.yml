@@ -13,7 +13,7 @@ install_dependencies:
   stage: install
   script:
     - cd React/Monprojet
-    - npm ci
+    - npm install
   artifacts:
     paths:
       - React/Monprojet/node_modules/
